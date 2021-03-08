@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+body > main {
+    margin: auto;
+    width: 90%;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1em;
+}
+
+header > nav > ul {
+    list-style: none;
+    text-align: right;
+}
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
