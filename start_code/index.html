@@ -11,9 +11,15 @@
         <h1>CodeClan News</h1>
         <nav>
         <ul>
-            <li>Home</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <li>
+                <a href="home">Home</a>
+            </li>
+            <li>
+                <a href="blog">Blog</a>
+            </li>
+            <li>
+                <a href="contact">Contact</a>
+            </li>
         </ul>
         </nav>
     </header>
@@ -23,16 +29,75 @@
                 <h2>Login</h2>
                 <form>
                     <label for="email">Email: </label>
-                    <input type="email" required name="email" id="email">
+                    <input type="email" required name="email" id="email" placeholder="Insert email here">
                     <br>
                     <label for="password">Password: </label>
-                    <input type="password" required name="password" id="password">
+                    <input type="password" required name="password" id="password" placeholder="Insert password here">
                     <br>
                     <button type="submit">Submit</button>
                 </form>
             </section>
-        </aside>    
+            <section>
+                <h2>Categories</h2>
+                    <ul>
+                        <li>
+                            <a href="">Latest</a>
+                        </li>
+                        <li>
+                            <a href="">Local</a>
+                        </li>
+                        <li>
+                            <a href="">Politics</a>
+                        </li>
+                        <li>
+                            <a href="">Sports</a>
+                        </li>
+                    </ul>
+            </section>
+        </aside> 
+        <section>
+            <hgroup>
+                <h2>Latest</h2>
+                <h3>Breaking News</h3>
+            </hgroup>
+            <section>
+                <img src="https://placebear.com/200/200" alt="">
+                <hgroup>
+                    <h4>Story Headline</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quaerat!
+                    </p>
+                </hgroup>
+            </section>
+            <section>
+                <img src="https://placebear.com/200/190" alt="">
+                <hgroup>
+                    <h4>Story Headline</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quaerat!
+                    </p>
+                </hgroup>
+            </section>
+            <section>
+                <img src="https://placebear.com/200/195" alt="">
+                <h4>Story Headline</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quaerat!
+                </p>
+            </section>
+        </section>
+        <article>
+            <hgroup>
+                <h2>Main Article Headline</h2>
+                <h3>Author Name</h3>
+            </hgroup>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci deserunt corporis eligendi in cum alias libero. Quidem culpa earum, itaque hic officia molestias labore sed, beatae eum aut unde quos reprehenderit dolores expedita ea dolore perspiciatis harum error fugit vero sunt tenetur eius. Recusandae id nihil similique sed placeat?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus recusandae ab praesentium quibusdam consectetur nobis aut, magni tempore nisi repellat odit eveniet qui obcaecati!</p>
+        </article>
+        <section> 
+            <h2>Comments</h2>
+            <textarea name="comments" id="comment-form" cols="30" rows="10" placeholder="Insert your comment here"></textarea>
+        </section>
     </main>            
-    
+    <footer>
+        <p>&copy; CodeClan News 2020</p>
+    </footer>
 </body>
 </html>
